@@ -275,6 +275,7 @@ Children:
   - Name: EnableVirtualKeyboard
     Type: BaseDataVariableType
     DataType: Boolean
+    Value: true
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -1172,7 +1173,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: VariablePointer
                     Description: {"NamespaceIndex":2,"TextId":"ToggleVariableToModifyDescription"}
-                    Value: {"IdType":2,"Id":"14dbc42d68a6eaf5a2d1076c1d4d9711","Namespace":7}
+                    Value: "/Objects/NewHMIProject1/CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/GVL_ESS/PnlCmdEssCycleStart"
                   - Name: ArrayIndex
                     Type: BaseDataVariableType
                     DataType: UInt32
@@ -1348,6 +1349,10 @@ Children:
               Type: PropertyType
               DataType: NodeId
               Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+          - Name: ImagePath
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            ModellingRule: Optional
         - Name: ManualCommand
           Type: NavigationPanelItem
           Children:
@@ -1452,6 +1457,21 @@ Children:
             Type: NodePointer
             DataType: NodeId
             Value: "/Objects/NewHMIProject1/UI/Screens1/Alarms"
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: Panel1
+          Type: NavigationPanelItem
+          Children:
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Panel
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/NewHMIProject1/UI/Screens1/HumidityDryingProgram"
             Children:
             - Name: Kind
               Type: PropertyType
