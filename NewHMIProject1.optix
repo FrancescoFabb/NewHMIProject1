@@ -35,10 +35,6 @@ Project:
    Uri: 'urn:FTOptix:CommunicationDriver'
    Module: FTOptix.CommunicationDriver
    Version: 2.1
-  9:
-   Uri: 'urn:FTOptix:RAEtherNetIP'
-   Module: FTOptix.RAEtherNetIP
-   Version: 3.0
   10:
    Uri: 'urn:FTOptix:Core:Net'
    Module: FTOptix.Core.Net
@@ -71,10 +67,6 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 3.0
-  18:
-   Uri: 'urn:FTOptix:RAEtherNetIP:Net'
-   Module: FTOptix.RAEtherNetIP.Net
-   Version: 2.1
   19:
    Uri: 'urn:FTOptix:EventLogger'
    Module: FTOptix.EventLogger
@@ -124,15 +116,15 @@ Project:
    Module: FTOptix.Recipe.Net
    Version: 1.0
  Statistics:
-  TotalNodeCount: 1541
-  Objects: 308
+  TotalNodeCount: 2148
+  Objects: 302
   ObjectTypes: 11
-  Variables: 1222
+  Variables: 1835
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
-  References: 152
+  References: 146
   ReferenceTypes: 0
-  Files: 42
+  Files: 37
  Nodes:
  - File: Nodes/NewHMIProject1.yaml
