@@ -85,7 +85,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 29.0
     - Name: Style
       Type: BaseDataVariableType
       DataType: String
@@ -108,7 +108,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"it-IT","Text":"Button1"}
+      Value: {"LocaleId":"it-IT","Text":"LEFT VENTILATION"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -134,6 +134,15 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
+    - Name: Elide
+      Type: BaseDataVariableType
+      DataType: ElideEnum
+      ModellingRule: Optional
+    - Name: WordWrap
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
   - Name: Button3
     Type: Button
     Children:
@@ -141,7 +150,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"it-IT","Text":"Button1"}
+      Value: {"LocaleId":"it-IT","Text":"RIGHT VENTILATION"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -177,6 +186,11 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 40.0
+    - Name: WordWrap
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
   - Name: Button4
     Type: Button
     Children:
@@ -184,7 +198,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"it-IT","Text":"Button1"}
+      Value: {"LocaleId":"it-IT","Text":"HEATING"}
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
