@@ -131,14 +131,14 @@ Children:
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#000000"
+        Value: "#008000"
       - Name: FontFamily
         Type: BaseDataVariableType
         DataType: Font
       - Name: Radius
         Type: BaseDataVariableType
         DataType: Size
-        Value: 20.0
+        Value: 5.0
   - Name: InputBoxStyles
     Type: BaseObjectType
     Children:
@@ -166,7 +166,7 @@ Children:
       - Name: Radius
         Type: BaseDataVariableType
         DataType: Size
-        Value: 20.0
+        Value: 5.0
     - Name: Pressione
       Type: InputBoxStyle
       Children:
@@ -189,7 +189,7 @@ Children:
       - Name: Radius
         Type: BaseDataVariableType
         DataType: Size
-        Value: 20.0
+        Value: 5.0
   - Name: SwitchStyles
     Type: BaseObjectType
     Children:
