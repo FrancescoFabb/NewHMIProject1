@@ -1716,7 +1716,7 @@ Children:
     - Name: Pens
       Type: BaseObjectType
       Children:
-      - Name: Right temperature
+      - Name: Température droite
         Type: XYChartArrayLinePen
         Children:
         - Name: PointArray
@@ -1739,7 +1739,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-      - Name: Pressure
+      - Name: Pression
         Type: XYChartArrayLinePen
         Children:
         - Name: PointArray
@@ -1758,7 +1758,7 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#ffff00"
-      - Name: Left temperature
+      - Name: Température gauche
         Type: XYChartArrayLinePen
         Children:
         - Name: PointArray
@@ -1777,7 +1777,7 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#008000"
-      - Name: Humidity avarege
+      - Name: Humidité moyenne
         Type: XYChartArrayLinePen
         Children:
         - Name: PointArray
@@ -1796,6 +1796,10 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#0fafff"
+        - Name: Editable
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
     - Name: LegendVisible
       Type: BaseDataVariableType
       DataType: Boolean
@@ -1854,7 +1858,7 @@ Children:
     - Name: Pens
       Type: BaseObjectType
       Children:
-      - Name: Humidity Probe 1
+      - Name: "Sonde d'humidité 1"
         Type: XYChartArrayLinePen
         Children:
         - Name: PointArray
@@ -1873,7 +1877,7 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#ffff00"
-      - Name: Humidity Probe 2
+      - Name: "Sonde d'humidité 2"
         Type: XYChartArrayLinePen
         Children:
         - Name: PointArray
@@ -1892,7 +1896,7 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#0000ff"
-      - Name: Humidity Probe 3
+      - Name: "Sonde d'humidité 3"
         Type: XYChartArrayLinePen
         Children:
         - Name: PointArray
@@ -2951,7 +2955,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 110.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
